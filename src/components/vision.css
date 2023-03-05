@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400&family=Space+Grotesk:wght@600&display=swap');
+
+
+
+
+
+
+.Vpage
+{   
+    
+    width: 100vw;
+    height: 100vh;
+    
+    
+
+    background: #F4AD21;
+    
+}
+.mainv
+{   
+    line-height: 1em;
+    max-width: 1000px;
+    color: black;
+    font-size: 300px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 3rem;
+
+}
+
+.subv
+{  font-family: 'Darker Grotesque', sans-serif;
+
+  color:#525761;
+  font-size: 7rem ;
+  line-height: 10rem;
+  
+  font-weight:bold;
+  margin-left: 3rem;
+}

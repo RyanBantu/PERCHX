@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+
+
+
+.crew
+{   display: flex;
+    flex-direction: column;
+    
+    width: 100vw;
+    height: 100vh;
+    
+
+    background: #389CBB;
+}
+
+
+.c
+{
+    display: flex;
+    flex:row ;
+
+
+}
+
+.c1
+{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-size: 12rem;
+    margin-left: 3rem;
+}
+.contact
+{
+   padding: 1rem; 
+   font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    background-color: #F4AD21;
+    border-radius: 10rem;
+    width: 25rem;
+    font-size: 3rem;
+    
+    margin-right: 2rem;
+    margin-left: 8rem;
+    border: none;
+    
+   
+    
+    
+}
+
+.c2
+{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-left: 16rem;
+    
+}
+
+
+.pics
+{
+height: 15rem;
+width: 15rem;
+border-radius: 50%;
+
+}
+
+.c3{
+    display: flex;
+    flex:row;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    justify-content: space-between;
+    margin-right: 5rem;
+
+}
+
+.r{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3rem;
+    color: #f7f7f7;
+  }
+
+.r1 
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    color:#F4AD21;
+
+}
+
+.j
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3rem;
+    color: #f7f7f7;
+}
+
+.j1
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    color:#F4AD21;
+}
+
+.s{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3rem;
+    color: #f7f7f7;
+}
+
+.s1
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    color:#F4AD21;
+}
+
+.s2
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    color:#F4AD21;
+}
+

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400&family=Space+Grotesk:wght@600&display=swap');
+
+
+
+
+
+
+
+
+.about
+{   display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+    line-height: 20rem;
+    padding-top: 8rem;
+
+    background: #389CBB;
+}
+
+
+.wat
+
+{    text-align: center;
+
+    background: #F4AD21;
+    border-radius: 40px;
+   max-height: 5rem;
+   max-width: 40rem;
+   font-size: 4rem;
+   font-family: 'Space Grotesk', sans-serif; 
+   color: white;
+   line-height: normal;
+   margin-left: 5rem;
+   padding: 3rem ;
+   
+  
+   
+
+   
+   
+    
+}
+.gp 
+{
+color: black;
+font-family: 'Space Grotesk', sans-serif;
+}
+
+.wat2
+
+{   
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    font-size: 4rem;
+    line-height: normal;
+    margin-right: 12rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+
+}
+
+
+
+
+.why
+{
+    text-align: center;
+
+    background: #ffffff;
+    border-radius: 40px;
+   max-height: 5rem;
+   max-width: 40rem;
+   width: 15rem;
+   font-size: 3rem;
+   font-family: 'Space Grotesk', sans-serif; 
+   color:  #F4AD21;
+   line-height: normal;
+   margin-right: 25rem;
+   padding: 1rem ;
+   margin-top: 25rem;
+}
+
+
+
+.why2
+{ 
+line-height: 2rem;
+color: #ffffff;
+font-size: 2rem;
+font-family:  'Space Grotesk', sans-serif;
+
+
+
+
+}
+.why2 hr
+{
+ border-color:  black;
+
+}
+.ryan {
+    display: flex;
+    flex:row;
+    align-items: center;
+}
+
+
+.yang
+{
+    margin-right: 3rem;
+}

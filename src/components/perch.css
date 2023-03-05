@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+
+
+
+
+.home 
+{   
+    
+   
+    width: 100vw;
+    height: 100vh;
+    
+    
+
+    background: #0E1821;
+}
+.main
+{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    display: flex;
+    flex:content;
+    font-size: 250px;
+    line-height: 145px;
+    margin-left: 16rem;
+    margin-top: 15%;
+
+
+
+letter-spacing: -6%;
+
+
+font-weight: bold;
+}
+
+.submain 
+{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #BAC1CC;
+    font-size: 70px;
+    margin-left: 11rem;
+
+    
+}
+a{
+    text-decoration: none;
+}
+.ahome
+{
+    color: #F4AD21;
+    Font-family: Space Grotesk;
+    font-size: 30px;
+    text-decoration: none;
+   
+    margin-left: 75rem;
+    
+}
+
+.aabout
+{
+    color: #F4AD21;
+    Font-family: Space Grotesk;
+    font-size: 30px;
+    padding-top: 10%;
+    padding-left: 30px;
+
+
+}
+
+.aconnect
+{
+    color: #F4AD21;
+    Font-family: Space Grotesk;
+    font-size: 30px;
+    
+    padding-top: 10%;
+    padding-left: 30px;
+
+    
+    
+}
+.NAV
+{
+
+    background: #0E1821;
+    padding-top: 2rem;
+}
+
+#backtotop {
+    position: fixed;
+    top: 95%;
+    left: 87%;
+    display: inline-block;
+    background-color: white;
+    width: 10rem;
+    border-radius:10rem;
+    padding-left: 3rem;
+    Font-family: Space Grotesk;
+}

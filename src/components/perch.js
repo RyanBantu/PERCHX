@@ -13,11 +13,12 @@ const Home = ()=>
         <a href ="#aboutPage" className="aabout"> ABOUT</a>
         <a href ="#connectPage" className="aconnect"> CONNECT</a>
         </div>
-        <p className="main"> GOPERCH</p>
-        <p className="submain">YOUR PASSPORT TO MODERN PROBLEMS</p>
-        <a id="backtotop" href="#homePage">
+        <div className="main"> GOPERCH</div>
+        
+        <div  className="submain">  YOUR PASSPORT TO MODERN PROBLEMS</div>
+        <div><a id="backtotop" href="#homePage">
             Back to top!
-        </a>
+        </a></div>
         </div>
 
         

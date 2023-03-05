@@ -114,3 +114,14 @@ font-family:  'Space Grotesk', sans-serif;
 {
     margin-right: 3rem;
 }
+
+@media screen and (max-width:1440px) {
+    
+    .about{
+        flex-direction: column;
+    }
+    .yc{
+        padding: 0 5rem 0 5rem;
+    }
+
+}

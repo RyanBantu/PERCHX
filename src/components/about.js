@@ -33,7 +33,7 @@ const About = ()=>
 
 
                <div className="yang">
-
+               <div className="yc">
                <div className="why" > 
               the 'WHY'
         
@@ -51,6 +51,7 @@ const About = ()=>
                  <Star /> <p> Accurate and reliable</p>
                  </div>
                  <hr/>
+                 </div>
 
                </div>
 

@@ -134,3 +134,43 @@ font-family: 'Space Grotesk', sans-serif;
 {
     color: #ffffff;
 }
+@media screen and (max-width:1440px) {
+    
+    .connect{
+        flex-direction: column;
+        align-items: center;
+    }
+.con2{
+    flex-direction: column;
+    align-items: center;
+   
+}
+.con3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poc2{
+    margin: 0;
+}
+.poc1{
+    margin: 4rem 0 0 0;
+    font-size: 4rem;
+
+    
+}
+.max
+{   padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.hello
+{
+    margin: auto;
+
+}
+
+}

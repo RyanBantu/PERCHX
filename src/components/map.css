@@ -4,7 +4,7 @@
 .map
 {   display: flex;
     flex-direction: row;
-    width: 100vw;
+    /* width: 100vw; */
     height: 90vh;
     
     line-height: 20rem;

@@ -8,14 +8,15 @@ import Connect from "./components/connect";
 function App() {
   return (
     
-<>
+    <div className="yes">
       <Home/>
       <Vision/>
       <About/>
       <Map/>
       <Crew/>
       <Connect/>
-</>
+      </div>
+
    
 
       

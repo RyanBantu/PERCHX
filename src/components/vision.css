@@ -41,3 +41,28 @@
   font-weight:bold;
   margin-left: 3rem;
 }
+
+@media screen and (max-width:1024px) {
+
+  .mainv{
+    font-size: 12rem;
+  }
+  .subv{
+    padding-top: 3rem;
+    font-size: 5rem;
+    line-height: 4rem;
+  }
+
+}
+@media screen and (max-width:1440px) {
+
+  .mainv{
+    font-size: 15rem;
+  }
+  .subv{
+    padding-top: 4rem;
+    font-size: 5rem;
+    line-height: 4rem;
+  }
+
+}

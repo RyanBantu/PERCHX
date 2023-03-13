@@ -21,11 +21,13 @@
 .mapbk9 {
     display: flex;
     flex: row;
+    width: 120rem;
+    height: 50rem;
 }
 
 .mapimg {
-    height: 50rem;
-    width: 70rem;
+    height: 100%;
+    width: 100%;
     border-radius: 4rem;
     margin-left: 3rem;
 
@@ -64,9 +66,46 @@
 
 
 }
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1024px) {
     .bkp {
-        font-size: 3rem;
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    .bkd{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .mapbk9{
+        width: 60rem;
+        height: 40rem;
+        
+    }
+
+    
+    .map{
+        flex-direction: column;
+        padding-top: 4rem;
+    }
+    
+
+   
+
+}
+
+@media screen and (max-width:768px) {
+    .bkp {
+        font-size: 2rem;
+    }
+    .map{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .bkp {
+        font-size: 1rem;
     }
     .map{
         flex-direction: column;

@@ -107,15 +107,26 @@ a{
     position: fixed;
     /* top: 95%;
     left: 87%; */
-    display: inline-block;
+
+  text-align: center;
+   right: 0;
     background-color: white;
-    width: 10rem;
+    width: 8rem;
     border-radius:10rem;
+   
     text-align: center;    
     Font-family: Space Grotesk;
-    margin-left: 90%;
-  bottom: 2rem;
+   
     
+  bottom: 2rem;
+
+
+    
+}
+
+.sus {
+    width: 100vw;
+    display: flex;
 }
 /* 
 body
@@ -124,3 +135,17 @@ max-width:100% ;
 
 
 } */
+
+@media screen and (max-width:1024px) {
+   .main
+   {
+    font-size: 10rem;
+   }
+   .submain
+   {
+    font-size: 3rem;
+    margin-bottom: 8rem;
+   }
+   
+
+}

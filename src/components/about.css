@@ -37,6 +37,7 @@
    line-height: normal;
    margin-left: 5rem;
    padding: 3rem ;
+   text-align: center;
    
   
    
@@ -118,10 +119,87 @@ font-family:  'Space Grotesk', sans-serif;
 @media screen and (max-width:1440px) {
     
     .about{
+        flex-direction: row;
+    }
+    .yc{
+        padding: 0 1rem 0 1rem;
+    }
+    .yang {
+        margin:0%;
+    }
+
+    .wat{
+        font-size: 2rem;
+        width:20rem;
+       
+        padding: 1rem;
+       
+    }
+    .wat2 {
+        font-size: 3rem;
+
+    }
+    .why {
+        height: 2rem;
+        font-size: 2rem;
+        margin: 0rem;
+    }
+ 
+
+}
+
+@media screen and (max-width:1024px) {
+    
+    .about{
+        flex-direction: column;
+        padding-top: 4rem;
+
+
+    }
+    .ying{
+        padding-top: 0rem;
+      
+    }
+    .wat
+    {max-width: 20rem;
+       
+     font-size: 2rem;
+    }
+    .wat2
+    { font-size: 3rem;
+
+    }
+    .why{
+        margin-top: 4rem;
+    }
+    .yang{
+        font-size: 5rem;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    
+    .about{
         flex-direction: column;
     }
     .yc{
-        padding: 0 5rem 0 5rem;
+        padding: 0 2rem 0 2rem;
     }
 
+
 }
+
+@media screen and (max-width:375px) {
+    
+    .about{
+        flex-direction: column;
+    }
+    .yc{
+        padding: 0 1rem 0 1rem;
+    }
+
+
+}
+

@@ -13,8 +13,7 @@
 .about
 {   display: flex;
     flex-direction: row;
-    /* width: 100vw; */
-    height: 100vh;
+   
     
     line-height: 20rem;
     padding-top: 8rem;

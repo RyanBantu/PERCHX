@@ -66,3 +66,18 @@
   }
 
 }
+
+@media screen and (max-width:400px) {
+
+  .mainv{
+    margin-top: 1rem;
+    font-size: 5rem;
+    margin-left: 3rem;
+  }
+  .subv{
+    padding-top: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+}

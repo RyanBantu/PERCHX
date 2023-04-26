@@ -149,3 +149,100 @@ max-width:100% ;
    
 
 }
+
+@media screen and (max-width:400px) {
+    .home 
+{   
+    
+   display: flex;
+   flex-direction: column;
+
+    max-width: 100vw; 
+    line-height: 1rem;
+        
+    background: #0E1821;
+}
+    
+    
+    .main
+    {
+     font-size: 3rem;
+     margin-top: 2rem;
+    }
+    .submain
+    {display: flex;
+     margin-left: 2rem;
+     font-size: 2rem;
+    line-height: 2rem;
+   
+     
+    }
+
+    .NAV
+{
+    background: #0E1821;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 4rem;
+    max-width: 100vw;
+    
+}
+
+.ahome
+{
+    color: #F4AD21;
+    Font-family: Space Grotesk;
+    font-size: 10px;
+    text-decoration: none;
+    padding-left: 30px;
+
+  
+   
+    
+}
+
+.aabout
+{ 
+    color: #F4AD21;
+    Font-family: Space Grotesk;
+    font-size: 10px;
+   
+    padding-left: 30px;
+
+
+}
+
+.aconnect
+{
+    color: #F4AD21;
+    Font-family: Space Grotesk;
+    font-size: 10px;
+    
+    
+    padding-left: 30px;
+
+    
+    
+}
+#backtotop {
+    position: fixed;
+     /*top: 95%;
+    left: 87%; */
+
+  text-align: center;
+  
+    background-color: white;
+    width: 8rem;
+    border-radius:10rem;
+   
+     
+    Font-family: Space Grotesk;
+  bottom: 2rem;
+}
+.sus {
+   
+    display: flex;
+}
+ 
+ }

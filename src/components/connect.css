@@ -250,11 +250,17 @@ font-family: 'Space Grotesk', sans-serif;
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
     
     .connect{
         flex-direction: column;
         align-items: center;
+    }
+
+
+    .con1{
+        font-size: 2rem;
+        margin-right: 2rem;
     }
 .con2{
     flex-direction: column;
@@ -267,11 +273,16 @@ font-family: 'Space Grotesk', sans-serif;
     align-items: center;
 }
 .poc2{
-    margin: 0;
+  font-size: 1rem;
+  margin-left: 9rem;
+  
+  line-height: 1rem;
 }
 .poc1{
     margin: 4rem 0 0 0;
-    font-size: 4rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
 
     
 }
@@ -280,12 +291,30 @@ font-family: 'Space Grotesk', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 2rem;
     
 
 }
 .hello
 {
     margin: auto;
+    font: 1rem;
+
+}
+.contab
+{
+    font-family: 'Space Grotesk', sans-serif;
+    background: #F4AD21;
+    border-radius: 40px;
+    color: white;
+    padding-right: 2rem;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 13rem;
 
 }
 

@@ -246,17 +246,12 @@ border-radius: 50%;
     border-radius: 50%;
     }
    .c1{
-    font-size: 1rem;
+    font-size: 3rem;
    }
-  .c2{ display: flex;
-   
-     margin-top: 2rem;
-     margin-left: 1rem;
-    
-     font-size: 1rem;
-     
-    
-  }
+   .c2{
+    display: none;
+   }
+
   
   .contact
   {
@@ -269,13 +264,14 @@ border-radius: 50%;
   }
   .c3{
     display: flex;
-    flex:row;
+    flex-direction: row;
     margin-top: 4rem;
     margin-left: 2rem;
     justify-content: space-between;
     
 
 }
+
 
 
 

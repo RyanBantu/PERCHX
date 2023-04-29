@@ -42,6 +42,7 @@
 {
  display: flex;
  flex-direction: row;
+ flex-wrap: wrap;
 }
 
 .contab
@@ -252,25 +253,27 @@ font-family: 'Space Grotesk', sans-serif;
 
 @media screen and (max-width:400px) {
     
-    .connect{
+    .connect{ display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
 
 
-    .con1{
+    .con1{ display: flex;
         font-size: 2rem;
         margin-right: 2rem;
     }
-.con2{
+.con2{ display: flex;
     flex-direction: column;
     align-items: center;
-   
+    flex-wrap: wrap;
 }
 .con3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 .poc2{
   font-size: 1rem;

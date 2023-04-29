@@ -2,6 +2,9 @@ import React from "react";
 import "./perch.css"
 
 
+
+
+
 const Home = ()=>
 {
     return (
@@ -14,10 +17,13 @@ const Home = ()=>
         <a href ="#connectPage" className="aconnect"> CONNECT</a>
         </div>
         <div className="main"> GOPERCH</div>
-        <div  className="submain">  YOUR PASSPORT TO MODERN SOLUTIONS</div>
-        <div className = "sus"><a id="backtotop" href="#homePage">
+        
+        
+       
+        
+        {/* <div className = "sus"><a id="backtotop" href="#homePage">
             Back to top!
-        </a></div>
+        </a></div> */}
         </div>
 
         

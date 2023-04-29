@@ -5,6 +5,8 @@ import Map from "./components/map";
 import Crew from "./components/crew";
 import Connect from "./components/connect";
 
+
+
 function App() {
   return (
     
@@ -15,6 +17,7 @@ function App() {
       <Map/>
       <Crew/>
       <Connect/>
+      
       </div>
 
    

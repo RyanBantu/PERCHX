@@ -3,7 +3,7 @@ import "./crew.css"
 import bantu from "./twitterdp.jpg"
 import jk from "./jatin.jpg"
 import chunduri from "./sreya.jpg"
-import rachit from "./rachit .png"
+
 import abid from "./abid.jpg"
 import uttam from "./uttam.png"
 
@@ -21,7 +21,7 @@ const Crew = () => {
                     </div>
 
                     <div className="c2">
-                        WANT TO JOIN OUR TEAM?
+                        
                         <a href="#connectPage">
                             <button className="contact"> CONTACT US !</button>
                         </a>
@@ -67,13 +67,6 @@ const Crew = () => {
                             <div className="j1"> Technical Head</div>
                         </div>
 
-                        <div className="sreya">
-
-                            <img className="pics" alt="map" src={rachit} />
-                            <div className="s">Rachit Singh</div>
-                            <div className="s1"> CMO </div>
-                            
-                        </div>
 
                     </div>
 
